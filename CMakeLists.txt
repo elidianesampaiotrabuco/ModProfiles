@@ -22,7 +22,7 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
-CPMAddPackage("gh:elidianesampaiotrabuco/uibuilder#6e40fc")
+CPMAddPackage("gh:elidianesampaiotrabuco/uibuilder#6e40fc1")
 
 CPMAddPackage("gh:madler/zlib#v1.3.1")
 set(ZLIB_INCLUDE_DIR "${zlib_SOURCE_DIR}")
